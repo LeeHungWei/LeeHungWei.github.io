@@ -1,32 +1,194 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - 0813/0817</title>
+  <title>CodePen - Personal Page</title>
   <link rel="stylesheet" href="./style.css">
 
 </head>
-
 <body>
-  <!-- partial:index.partial.html -->
-  <div class="container">
-    <div>To-do List</div>
-    <div>
-      <input id="input" />
-      <button id="create" onclick="addData()">新增</button>
+<!-- partial:index.partial.html -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
+
+
+<div class="edge">
+
+
+
+
+
+<div class="bar">
+
+<img class ="logo" src="https://i.pinimg.com/564x/63/66/81/6366818ce9a7a273ecc7180a1010b2e9.jpg"/>
+
+
+<ul class="nav flex-column">
+  <li class="nav-item">
+    <a class="nav-link active" href="#profile" style="color:#9e9d24;">Profile</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#experience" style="color:#9e9d24;">Experience</a>
+  </li>
+  
+  <li class="nav-item">
+   <a class="nav-link" href="#ability" style="color:#9e9d24;">Ability</a>
+  </li>
+  
+  <li class="nav-item">
+    <a class="nav-link" href="#photo"style="color:#9e9d24;">Photo</a>
+  </li>
+ <li class="nav-item">
+    <a class="nav-link" href="#contact" style="color:#9e9d24;">Contact Me</a>
+  </li>
+</ul>
+</div>  
+  
+  
+  
+<div class="content">  
+  
+ <div class="container">
+
+
+   <div class="title"><I>Hello!</I></div>
+   <div class="subtitle"><I>How are you today?</I></div>
+  </div>
+
+
+  
+  
+  
+  
+  <div class="profile">
+    <H4> <a id="profile">Profile</a></H4>
+    <div class="intro"> &#9658;
+    Hi everyone! My name is Vivian Lee. I'm 20 years old and I'm from Taipei. I'm  currently studying advertising in NCCU. I am an oppomistic sagittarius, and I love reading fictions and comic books. I am also interested in traveling and photography.<br><br> Nice to meet you and hope you enjoy my blog!</br></br></div>
+    
+    
+  </div>
+  
+  
+  
+<div class="experience">
+ <H4> <a id="experience">Experience</a></H4>
+  
+  <div class="university"> &#9658;<b>Bachelor of Advertising, National Chengchi University, Taiwan </b>
+    <br>&emsp;&emsp;Aug.2018-Jun.2022</br>
+  </div>
+  
+  
+   <div class="highschool"> &#9658;<b>High School Diploma, Affliated High School of National Chengchi University, Taipei</b>
+    <br>&emsp;&emsp;Aug.2015-Jun.2018</br>
+  
+  </div>
+  </div>
+  
+  
+  <div class="ability">
+    <H4> <a id="ability">Ability</a></H4>
+    
+    <div class="toeic"> &#9658;Golden Certificate of TOEIC</div>
+  <div class="computer"> &#9658;Computer Skills:</div>
+    
+    
+    <div class="progress">
+  <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">MS Word  100%</div>
+</div>
+<div class="progress">
+  <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">MS Excel  100%</div>
+</div>
+<div class="progress">
+  <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">MS Power Point  100%</div>
+</div>
+<div class="progress">
+  <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">Adobe Illustrator  90%</div>
+</div>
+<div class="progress">
+  <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 90%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Adobe After Effect  90%</div>
+</div>
+    
+    
+      </div>
+  
+  
+  
+  <div class="photo">
+    <H4><a id="photo">Photo</a></H4>
+    
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://i.pinimg.com/564x/f5/e0/3d/f5e03d3310579eabb1fe72bc56d5d3cf.jpg" class="d-block w-100" alt="...">
     </div>
-
-
-    <div id="list"></div>
-
-
+    <div class="carousel-item">
+      <img src="https://i.pinimg.com/564x/d8/4a/8b/d84a8b75e8ca8447b767ebe1af7a1e1a.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://i.pinimg.com/564x/14/82/c1/1482c15ec24da9e1e8cdb711eaabfada.jpg" class="d-block w-100" alt="...">
+    </div>
+    
+    <div class="carousel-item">
+      <img src="https://i.pinimg.com/564x/b5/7c/a4/b57ca46d1eda316c23c8582e8630be2a.jpg" class="d-block w-100" alt="...">
+    </div>
+    
+    <div class="carousel-item">
+      <img src="https://i.pinimg.com/564x/4d/ce/85/4dce8573232e9413280f22125cb7e5d2.jpg" class="d-block w-100" alt="...">
+    </div>
+    
+        
 
   </div>
-  <!-- partial -->
-  <script src="./script.js"></script>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+  
 
+
+
+
+
+
+
+
+
+  <div class="contact">
+  
+    <H4> <a id="contact">Contact Me</a></H4>
+    
+    <div class="media">
+    <div class="Email"> &#9658;<b>Email: </b>
+    <br>&emsp;&emsp;107405155@nccu.edu.tw</br>
+    </div>
+
+    <div class="FB"> &#9658;<b>Facebook: </b>
+    <br>&emsp;&emsp; https://www.facebook.com/profile.php?id=100001170208503</br>
+    </div>
+
+<div class="Twitter"> &#9658;<b>Twitter: </b>
+    <br>&emsp;&emsp;https://twitter.com/vivian881130</br>
+    </div>
+</div>
+    
+  </div>
+  
+ 
+ 
+  </div>
+  
+  
+</div>
+<!-- partial -->
+  
 </body>
-
 </html>

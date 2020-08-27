@@ -1,11 +1,181 @@
-.container{
-  align-items:center;
-  flex-direction:column;
+.bar{
+  width:250px;
+  height:100%vh;
+  background-color:#e6ee9c;
+  position:fixed;
+  font-family:Aerial;
+  font-weight:bold;
+}
+
+
+.logo{
+  width:200px;
+  height:200px;
+  border-radius:50%;
+  margin:23px;
+  margin-top:25px;
+}
+
+.nav-item{
+  margin:10px;
+  font-size:20px;
+ 
+}
+
+
+
+.nav-item:hover{
+  font-weight:bold;
+  box-shadow:2px 2px 2px 1px rgba(0,0,0,0.2);
+}
+
+.edge{
   display:flex;
-  padding:32px;
+}
+
+
+.content{
+height:100%;
+  width:100%;
+  background-color:#f9fbe7;
+  margin-left:250px;
+  font-family:Aerial;
   
 }
 
-.delete{
- margin:8px;
+.container{
+  flex-direction:row;
+  display:flex;
+ 
+  
+}
+
+.title{
+  animation-name:fade-in;
+  animation-duration:10s;
+ 
+  animation-timing-function:cubic-bezier(0,-0.16,0,.72);
+  font-size:50px;
+  font-family:Georgia;
+  color:#689f38;
+  margin-top:10px;
+  text-shadow: #aed581 0.1em 0.1em 0.3em;
+
+}
+
+.subtitle{
+  animation-name:fade-in;
+  animation-duration:10s;
+  
+  animation-timing-function: cubic-bezier(0,-0.16,0,.72);
+  font-size:50px;
+  font-family:Georgia;
+  color:#388e3c;
+  margin-top:60px;
+  text-shadow: #81c784 0.1em 0.1em 0.3em; 
+}
+
+
+
+@keyframes fade-in{
+  0%{
+    opacity:0;
+  }
+  40%{
+    opacity:0;
+  }
+  100%{
+    opacity:1;
+   
+  }
+}
+
+
+
+
+
+
+.profile{
+height:300px;
+  width:1000px;
+ 
+  margin:50px;
+
+}
+
+.intro{
+  font-size:23px;
+  margin:10px;
+  
+}
+
+
+.experience{
+height:300px;
+  width:1000px;
+
+  margin:50px;
+  
+}
+
+.university{
+  margin:10px;
+  font-size:23px;
+}
+
+.highschool{
+  margin:10px;
+  font-size:23px;
+}
+
+.ability{
+height:400px;
+  width:1000px;
+  
+  margin:50px;
+}
+
+
+
+.toeic{
+  margin:10px;
+  font-size:23px;
+}
+
+.computer{
+  margin:10px;
+  font-size:23px;
+}
+
+
+.progress{
+  margin:30px;
+}
+
+.photo{
+height:800px;
+  width:1000px;
+  margin:50px;
+}
+
+
+.image{
+  width:100px;
+  height:400px;
+  
+}
+
+
+.contact{
+height:300px;
+  width:1000px;
+font-size:23px;
+  margin:60px;
+
+}
+
+
+.media{
+  margin:30px;
+  flex-direction:column;
 }
